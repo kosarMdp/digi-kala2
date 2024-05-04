@@ -1,0 +1,212 @@
+div.wrapper > div.menu {
+    width: 100%;
+    direction: rtl;
+    border-bottom: 2px solid #f2eeee;
+    position: relative;
+    direction: rtl;
+    top: 17px;
+  }
+  div.wrapper > div.menu > div.location {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 7px;
+  }
+  div.wrapper > div.menu > div.location > span {
+    font-family: iranyekan-regular, sans-serif;
+    color: #3f4064;
+    font-size: 12px;
+    font-weight: 400px;
+    margin-right: 1300px;
+    cursor: pointer;
+  }
+  div.wrapper > div.menu > div.location > i {
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 12px;
+    right: 1280px;
+  }
+  div.wrapper > div.menu > div.main-menu {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
+  
+  div.wrapper > div.menu > div.main-menu > nav > ul > li {
+    margin: 0px 7px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  div.wrapper > div.menu > div.main-menu > nav > ul > li:nth-of-type(1),
+  div.wrapper > div.menu > div.main-menu > nav > ul > li:nth-of-type(6) {
+    padding-left: 23px;
+    border-left: 1px solid #e0dfdfe3;
+  }
+  div.wrapper > div.menu > div.main-menu > nav > ul > li > a {
+    padding: 4px;
+    color: #62666d;
+    font-family: iranyekan-regular, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  div.wrapper > div.menu > div.main-menu > nav > ul > li:nth-of-type(1) > a {
+    font-family: iranyekan-extraBold, sans-serif;
+    font-size: 14px;
+  }
+  
+  div.wrapper > div.menu > div.main-menu > nav > ul > li:nth-of-type(1) > i {
+    font-weight: 600px;
+    font-size: 15px;
+  }
+  div.wrapper > div.menu > div.main-menu > nav > ul > li > i {
+    color: #62666d;
+    font-size: 12px;
+  }
+  div.wrapper > div.menu > div.main-menu > nav > ul > li > div {
+    width: 0px;
+    height: 2px;
+    margin-top: 6px;
+    transition: 500ms;
+  }
+  div.wrapper > div.menu > div.main-menu > nav > ul > li:hover > div {
+    width: 100%;
+    height: 2px;
+    background-color: red;
+  }
+  
+  div.wrapper
+    > div.menu
+    > div.main-menu
+    > nav
+    > ul
+    > li:nth-of-type(1)
+    > div.smenu {
+    direction: rtl;
+    width: 78vw;
+    height: 36vw;
+    background-color: white;
+    position: absolute;
+    box-shadow: 2px 7px 15px rgba(128, 128, 128, 0.801);
+    top: 25.5px;
+    right: 0;
+    z-index: 800;
+    display: none;
+  }
+  div.wrapper
+    > div.menu
+    > div.main-menu
+    > nav
+    > ul
+    > li:nth-of-type(1):hover
+    > div.smenu {
+    display: block;
+  }
+  div.wrapper
+    > div.menu
+    > div.main-menu
+    > nav
+    > ul
+    > li
+    > div.smenu
+    > div.smenu1 {
+    width: 18%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    overflow-y: scroll;
+    direction: ltr;
+    background-color: #f0f0f1;
+  }
+  
+  div.wrapper
+    > div.menu
+    > div.main-menu
+    > nav
+    > ul
+    > li
+    > div.smenu
+    > div.smenu1
+    > ul {
+    width: 100%;
+    direction: rtl;
+    height: 100%;
+  }
+  
+  div.wrapper
+    > div.menu
+    > div.main-menu
+    > nav
+    > ul
+    > li
+    > div.smenu
+    > div.smenu1
+    > ul
+    > li {
+    margin-bottom: 4px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: 400ms;
+    background-color: #f0f0f1;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+  }
+  div.wrapper
+    > div.menu
+    > div.main-menu
+    > nav
+    > ul
+    > li
+    > div.smenu
+    > div.smenu1
+    > ul
+    > li:hover {
+    background-color: #ffffff;
+  }
+  
+  div.wrapper
+    > div.menu
+    > div.main-menu
+    > nav
+    > ul
+    > li
+    > div.smenu
+    > div.smenu1
+    > ul
+    > li:hover
+    > a {
+    color: red;
+  }
+  div.wrapper
+    > div.menu
+    > div.main-menu
+    > nav
+    > ul
+    > li
+    > div.smenu
+    > div.smenu1
+    > ul
+    > li
+    > a {
+    margin-right: 10px;
+    font-size: 13px;
+    color: #000000;
+    font-family: iranyekan-medium, sans-serif;
+  }
+  div.wrapper
+    > div.menu
+    > div.main-menu
+    > nav
+    > ul
+    > li
+    > div.smenu
+    > div.smenu1
+    > ul
+    > li:nth-of-type(1)
+    > i {
+    margin-right: 5px;
+  }

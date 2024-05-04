@@ -1,0 +1,89 @@
+div.wrapper > div.slider-story > div {
+  width: 100%;
+  height: 160px;
+  padding: 0 80px;
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    top: 16px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: 10% !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  div.swiper-button-next {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    background-color: #ffffff;
+  }
+  div.swiper-button-next::after {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+  }
+  div.swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+  div.swiper-button-prev::after {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+  }
+}
+div.wrapper > div.slider-story {
+  direction: rtl;
+}
+div.img {
+  width: 62%;
+  height: 52%;
+  margin-top: 20px;
+  padding: 3px;
+  border-radius: 50%;
+  border: 2px solid #a6469b;
+  cursor: pointer;
+}
+div.wrapper
+  > div.slider-story
+  > div
+  > div.swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.img
+  > img {
+  border-radius: 50%;
+}
+p.story{
+    font-size: 11px;
+    font-family: iranyekan-regular,sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #23254e;
+  }

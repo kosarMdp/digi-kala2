@@ -1,0 +1,482 @@
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow-y: scroll;
+  direction: ltr;
+  width: calc(100% - 18%);
+  height: 100%;
+  z-index: 109;
+  background-color: white;
+  display: none;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li:hover
+  > div.smenu12 {
+  display: block;
+}
+
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > p {
+  width: 100%;
+  height: 52px;
+  line-height: 52px;
+  color: #008eb2;
+  font-family: iranyekan-medium, sans-serif;
+  cursor: pointer;
+  padding-right: 15px;
+  font-size: 12px;
+}
+
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover {
+  direction: rtl;
+  width: 100%;
+  background-color: white;
+}
+
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(1) {
+  width: 25%;
+  height: calc(100% - 52px);
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(1)
+  > ul {
+  width: 100%;
+  height: 100%;
+}
+
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(1)
+  > ul
+  > li {
+  width: 100%;
+  margin-top: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(1)
+  > ul
+  > li:hover
+  > a {
+  color: red;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(1)
+  > ul
+  > li
+  > a {
+  padding: 4px;
+  margin: 0px 2px;
+  color: #62666d;
+  font-family: iranyekan-regular, sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(1)
+  > ul
+  > li:nth-of-type(1):hover
+  > i {
+  color: red;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(2) {
+  width: 28%;
+  height: calc(100% - 52px);
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(2)
+  > ul {
+  width: 100%;
+  height: 100%;
+}
+
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(2)
+  > ul
+  > li {
+  width: 100%;
+  margin-top: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(2)
+  > ul
+  > li:hover
+  > a {
+  color: red;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(2)
+  > ul
+  > li
+  > a {
+  padding: 4px;
+  margin: 0px 2px;
+  color: #62666d;
+  font-family: iranyekan-regular, sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(3) {
+    width: 25%;
+  height: calc(100% - 52px);
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(3)
+  > ul {
+  width: 100%;
+  height: 100%;
+}
+
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(3)
+  > ul
+  > li {
+  width: 100%;
+  margin-top: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(3)
+  > ul
+  > li:hover
+  > a {
+  color: red;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(3)
+  > ul
+  > li
+  > a {
+  padding: 4px;
+  margin: 0px 2px;
+  color: #62666d;
+  font-family: iranyekan-regular, sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(4) {
+  height: calc(100% - 52px);
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(4)
+  > ul {
+  width: 100%;
+  height: 100%;
+}
+
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(4)
+  > ul
+  > li {
+  width: 100%;
+  margin-top: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(4)
+  > ul
+  > li:hover
+  > a {
+  color: red;
+}
+div.wrapper
+  > div.menu
+  > div.main-menu
+  > nav
+  > ul
+  > li
+  > div.smenu
+  > div.smenu1
+  > ul
+  > li
+  > div.smenu12
+  > div.cover
+  > div:nth-of-type(4)
+  > ul
+  > li
+  > a {
+  padding: 4px;
+  margin: 0px 2px;
+  color: #62666d;
+  font-family: iranyekan-regular, sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+}

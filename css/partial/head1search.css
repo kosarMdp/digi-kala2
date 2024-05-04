@@ -1,0 +1,96 @@
+div.wrapper > div.head {
+  position: sticky;
+  top: 0;
+  z-index: 600;
+}
+div.wrapper > div.head > img {
+  width: 100%;
+  height: 50px;
+}
+div.wrapper > div.head2 {
+  height: 57px;
+  background-color: white;
+  position: sticky;
+  top: 50px;
+  z-index: 500;
+  direction: rtl;
+}
+div.wrapper > div.head2 > div.logo {
+  height: inherit;
+  width: 8%;
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.head2 > div.logo > img {
+  margin-top: 10px;
+  cursor: pointer;
+}
+div.wrapper > div.head2 > div.search {
+  height: inherit;
+  width: 39%;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.head2 > div.search > input {
+  padding: 11px;
+  padding-right: 40px;
+  border-radius: 6px;
+  background-color: rgb(238, 231, 231);
+  border: 1px solid rgb(238, 231, 231);
+  margin: 6px 3px;
+  width: 550px;
+  color: #a4a6aa;
+  font-size: 15px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+div.wrapper > div.head2 > div.search > i {
+  position: absolute;
+  top: 18px;
+  right: 160px;
+  font-size: 18px;
+  color: #a4a6aa;
+}
+div.wrapper > div.head2 > div.login {
+  display: inline-block;
+  vertical-align: top;
+
+  padding: 8px;
+  margin-top: 8px;
+  position: relative;
+  border-radius: 5px;
+  right: 36%;
+  cursor: pointer;
+  border: 1px solid #e7e1e1;
+}
+div.wrapper > div.head2 > div.login > a {
+  font-family: iranyekan-webbold, sans-serif;
+  color: #0c0c0c;
+  font-size: 12px;
+  padding-right: 26px;
+}
+div.wrapper > div.head2 > div.login > i {
+  font-size: 19px;
+  color: #0c0c0c;
+  position: absolute;
+  top: 11.7px;
+}
+div.wrapper > div.head2 > div.buy {
+  padding: 5px;
+  padding-right: 28px;
+  border-right: 1px solid #e7e1e1;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  position: relative;
+  right: 37%;
+}
+div.wrapper > div.head2 > div.buy > i {
+  font-size: 19px;
+}

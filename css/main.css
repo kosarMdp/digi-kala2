@@ -1,0 +1,69 @@
+@import "./partial/setting.css";
+@import "./partial/head1search.css";
+@import "./partial/smenu.css";
+@import "./partial/mobileMenu.css";
+@import "./partial/kalaMenu.css";
+@import "./partial/homemenu.css";
+@import "./partial/smenuSetting.css";
+@import "./partial/HomeAppliancesMenu.css";
+@import "./partial/coth.css";
+@import "./partial/gold.css";
+@import "./partial/health.css";
+@import "./partial/gift.css";
+@import "./partial/supermarket.css";
+@import "./partial/stationery.css";
+@import "./partial/toy.css";
+@import "./partial/abzar.css";
+@import "./partial/car.css";
+@import "./partial/travel.css";
+@import "./partial/bomy.css";
+@import "./partial/slider-story.css";
+@import "./partial/slider.css";
+@import "./partial/digiType.css";
+@import "./partial/shegeft.css";
+@import "./partial/shegefts.css";
+@import "./partial/banner.css";
+@import "./partial/buy.css";
+@import "./partial/banner2.css";
+@import "./partial/brandSlider.css";
+@import "./partial/view.css";
+@import "./partial/digiplus.css";
+@import "./partial/digiClub.css";
+@import "./partial/BestSeller.css";
+@import "./partial/readable.css";
+@import "./partial/digikala.css";
+@import "./partial/logo.css";
+@import "./partial/footer1.css";
+@import "./partial/digikalaApp.css";
+@import "./partial/text.css";
+@import "./partial/footerLogo.css";
+@import "./partial/pin.css";
+
+@font-face {
+  font-family: iranyekan-webbold;
+  src: url(../font/iran-yekan-web/iran_yekan_web_bold.ttf);
+}
+@font-face {
+  font-family: iranyekan-extraBold;
+  src: url(../font/iran-yekan-web/iran_yekan_web_extraBold.ttf);
+}
+@font-face {
+  font-family: iranyekan-medium;
+  src: url(../font/iran-yekan-web/iran_yekan_web_medium.ttf);
+}
+@font-face {
+  font-family: iranyekan-regular;
+  src: url(../font/iran-yekan-web/iran_yekan_web_regular.ttf);
+}
+@font-face {
+  font-family: iranyekan-light;
+  src: url(../font/iran-yekan-web/iran_yekan_web_light.ttf);
+}
+@font-face {
+  font-family: iranyekan-thin;
+  src: url(../font/iran-yekan-web/iran_yekan_web_thin.ttf);
+}
+@font-face {
+  font-family: iranyekan-black;
+  src: url(../font/iran-yekan-web/iran_yekan_web_black.ttf);
+}

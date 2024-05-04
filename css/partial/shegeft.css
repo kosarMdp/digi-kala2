@@ -1,0 +1,232 @@
+div.wrapper > div.shegeft > div.redBox > div.slider {
+  width: 100%;
+  height: 0px;
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 95%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    direction: ltr;
+    background: #fff;
+    justify-content: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
+  div.swiper-button-next {
+    width: 40px;
+    height: 40px;
+    border: 1px gray solid;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+  div.swiper-button-next::after {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+  }
+  div.swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px gray solid;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+  div.swiper-button-prev::after {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+  }
+}
+div.wrapper > div.shegeft > div.redBox {
+  width: 95%;
+  height: 300px;
+  background-color: #ef3a4f;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 7px;
+  direction: rtl;
+}
+div.wrapper > div.shegeft > div.redBox > div.slider {
+  width: 100%;
+  height: 290px;
+  margin-top: 5px;
+}
+div.swiper-slide > div.img01 {
+  width: 100%;
+  height: 120px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+div.swiper-slide > div.img01 > img {
+  width: 40% !important;
+  height: 80% !important;
+  margin: 0 auto;
+}
+div.swiper-slide > div.img02 {
+  width: 100%;
+  height: 120px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+div.swiper-slide > div.img02 > img {
+  width: 50% !important;
+  height: 80% !important;
+  margin: 0 auto;
+}
+div.swiper-slide > a {
+  font-size: 14px;
+  font-family: iranyekan-webbold, sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+}
+div.swiper-slide > a > i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.bg {
+  background-color: #ef3a4f !important;
+}
+.setting {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.border {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.border2 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+div.swiper-slide > div > div.image {
+  width: 100%;
+  height: 60%;
+  padding-top: 5px;
+}
+div.swiper-slide > div > div.image > img {
+  width: 80%;
+  height: 95%;
+  margin: 0 auto;
+}
+div.swiper-slide > div > div.price {
+  width: 100%;
+  height: 14%;
+}
+div.swiper-slide > div > div.price > div.number {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+}
+div.swiper-slide > div > div.price > div.number > img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+div.swiper-slide > div > div.price > div.number > p {
+  font-size: 14px;
+  position: absolute;
+  top: 178px;
+  left: 33px;
+  font-family: iranyekan-webbold;
+}
+div.swiper-slide > div > div.price > div.box {
+  width: 26%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+div.swiper-slide > div > div.price > div.box > div {
+  width: 43px;
+  height: 23px;
+  border-radius: 15px;
+  margin-top: 9px;
+  background-color: #ef3a4f;
+}
+div.swiper-slide > div > div.price > div.box > div > p {
+  font-size: 14px;
+  font-family: iranyekan-webbold;
+  line-height: 25px;
+  color: #fff;
+}
+div.swiper-slide > div > div.off {
+  width: 100%;
+  height: 12%;
+}
+div.swiper-slide > div > div.off > p {
+  font-size: 14px;
+  position: absolute;
+  top: 215px;
+  left: 33px;
+  font-family: iranyekan-webbold;
+  color: #c0c2c5;
+}
+div.swiper-slide > div > div.off > div{
+  width: 25%;
+  height: 2px;
+  background-color: #c0c2c5;
+  position: absolute;
+  left: 34px;
+  top: 224px;
+}
+div.swiper-slide > div > div.slide {
+  width: 100%;
+  height: 14%;
+  padding: 5px;
+  position: relative;
+}
+div.swiper-slide > div > div.slide > div {
+  width: 95%;
+  height: 20%;
+  background-color: #f0f0f1;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10px;
+}
+div.swiper-slide > div > div.slide > div > div {
+  width: 65%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #ef3a4f;
+}
+div.swiper-slide > div.icon {
+  width: 40%;
+  height: 30%;
+  margin: 94px 60px;
+}
+div.swiper-slide > div.icon > i {
+  font-size: 40px;
+  line-height: 81px;
+  color: #19bfd3;
+  cursor: pointer;
+}
+div.swiper-slide > div.icon > p {
+  font-family: iranyekan-medium;
+  font-size: 14px;
+  color: #3f4064;
+  cursor: pointer;
+}

@@ -1,0 +1,93 @@
+div.wrapper > div.view {
+  width: 100%;
+  margin-top: 20px;
+}
+div.wrapper > div.view > div.view2 {
+  width: 93%;
+  border: 1px solid rgb(236, 230, 230);
+  margin: 0 auto;
+  direction: rtl;
+  text-align: center;
+  border-radius: 10px;
+}
+div.wrapper > div.view > div.view2 > div {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+  height: 390px;
+  text-align: right;
+  margin: 10px 5px;
+}
+div.wrapper > div.view > div.view2 > div:nth-of-type(1),div.wrapper > div.view > div.view2 > div:nth-of-type(2),div.wrapper > div.view > div.view2 > div:nth-of-type(3){
+    border-left: 1px solid rgb(236, 230, 230);
+}
+div.wrapper > div.view > div.view2 > div > p:nth-of-type(1) {
+  color: #23254e;
+  font-family: iranyekan-webbold;
+  cursor: pointer;
+  font-size: 16px;
+}
+div.wrapper > div.view > div.view2 > div > p:nth-of-type(2) {
+  color: #81858b;
+  font-family: iranyekan-webbold;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 11px;
+}
+div.wrapper > div.view > div.view2 > div > div.pic1 {
+  width: 100%;
+  height: 44%;
+  margin-top: 8px;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 1px solid rgb(236, 230, 230);
+}
+div.wrapper > div.view > div.view2 > div > div.pic1 > div:nth-of-type(1) {
+  width: 49%;
+  height: 140px;
+  border-left: 1px solid  rgb(236, 230, 230);
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.view > div.view2 > div > div.pic1 > div:nth-of-type(2) {
+  width: 49%;
+  height: 140px;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.view > div.view2 > div > div.pic1 > div > img {
+  width: 140px;
+  height: 120px;
+}
+div.wrapper > div.view > div.view2 > div > div.pic2 > div > img {
+  width: 140px;
+  height: 120px;
+}
+div.wrapper > div.view > div.view2 > div > div.pic2 {
+  width: 100%;
+  height: 44%;
+  margin-top: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+div.wrapper > div.view > div.view2 > div > div.pic2 > p {
+  color: #19bfd3;
+  font-size: 12px;
+  cursor: pointer;
+  padding-top: 15px ;
+  margin-left: 15px;
+  font-family: iranyekan-medium;
+}
+div.wrapper > div.view > div.view2 > div > div.pic2 > div:nth-of-type(1) {
+  width: 49%;
+  height: 130px;
+  border-left: 1px solid  rgb(236, 230, 230);
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.view > div.view2 > div > div.pic2 > div:nth-of-type(2) {
+  width: 49%;
+  height: 130px;
+  display: inline-block;
+  vertical-align: top;
+}

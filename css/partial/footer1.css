@@ -1,0 +1,100 @@
+div.wrapper > div.footer1 {
+  width: 100%;
+  height: 250px;
+  margin-top: 30px;
+}
+div.wrapper > div.footer1 > div {
+  width: 97%;
+  height: 250px;
+  margin: 0 auto;
+  direction: rtl;
+}
+div.wrapper > div.footer1 > div > div.link {
+  width: 60%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.footer1 > div > div.link > div {
+  width: 250px;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.footer1 > div > div.link > div > p {
+  color: #3f4064;
+  font-size: 16px;
+  margin: 0 10px;
+  font-family: iranyekan-webbold, sans-serif;
+}
+div.wrapper > div.footer1 > div > div.link > div > ul > li {
+  margin: 10px 10px;
+}
+div.wrapper > div.footer1 > div > div.link > div > ul > li > a {
+  color: #81858b;
+  font-size: 13px;
+  font-family: iranyekan-medium;
+}
+div.wrapper > div.footer1 > div > div.icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 39%;
+  height: 250px;
+  position: relative;
+}
+div.wrapper > div.footer1 > div > div.icon > p:nth-of-type(1) {
+  position: absolute;
+  right: 230px;
+  color: #3f4064;
+  font-size: 16px;
+  font-family: iranyekan-webbold, sans-serif;
+}
+div.wrapper > div.footer1 > div > div.icon > p:nth-of-type(2) {
+  position: absolute;
+  left: 5px;
+  top: 120px;
+  color: #3f4064;
+  font-size: 16px;
+  font-family: iranyekan-webbold, sans-serif;
+}
+div.wrapper > div.footer1 > div > div.icon > div:nth-of-type(1) {
+  width: 240px;
+  position: absolute;
+  right: 230px;
+  top: 30px;
+}
+div.wrapper > div.footer1 > div > div.icon > div > img {
+  width: 35px;
+  height: 38px;
+  margin-top: 20px;
+}
+div.wrapper > div.footer1 > div > div.icon > div > i {
+  font-size: 30px;
+  margin: 5px 15px;
+  color: #a1a3a8;
+  cursor: pointer;
+}
+div.wrapper > div.footer1 > div > div.icon > input {
+  position: absolute;
+  right: 230px;
+  top: 180px;
+  width: 250px;
+  padding: 15px;
+  font-size: 14px;
+  font-family: iranyekan-webbold;
+  color: rgb(186, 181, 181);
+  border-radius: 10px;
+  background-color: #f0f0f1;
+  border: 1px solid #f0f0f1;
+}
+div.wrapper > div.footer1 > div > div.icon > div.submit {
+  position: absolute;
+  right: 490px;
+  top: 180px;
+  padding: 13px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #e0e0e2;
+  font-family: iranyekan-medium;
+  border-radius: 10px;
+}

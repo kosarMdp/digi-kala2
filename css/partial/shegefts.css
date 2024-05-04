@@ -1,0 +1,121 @@
+div.wrapper > div.supermarket {
+  width: 100%;
+  height: 105px;
+  text-align: center;
+}
+div.wrapper > div.supermarket > div {
+  width: 95%;
+  height: inherit;
+  cursor: pointer;
+  background-color: #edefed;
+  border-radius: 15px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+div.wrapper > div.supermarket > div > img {
+  position: absolute;
+  left: 0;
+}
+div.wrapper > div.supermarket > div > div.supermarket1 {
+  width: 40%;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  right: 0px;
+  border-radius: 15px;
+}
+div.wrapper > div.supermarket > div > div.supermarket1 > div:nth-of-type(1) {
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  right: 8px;
+  margin-top: 18px;
+}
+div.wrapper > div.supermarket > div > div.supermarket1 > div:nth-of-type(2) {
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  right: 17%;
+  margin-top: 37px;
+}
+div.wrapper > div.supermarket > div > div.supermarket1 > div:nth-of-type(3) {
+  background-color: #39ae00;
+  width: 23%;
+  height: 35%;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  left: 33px;
+  margin-top: 35px;
+  border-radius: 20px;
+}
+div.wrapper
+  > div.supermarket
+  > div
+  > div.supermarket1
+  > div:nth-of-type(3)
+  > p {
+  line-height: 35px;
+  color: #ffffff;
+  font-family: iranyekan-extraBold;
+  font-size: 14px;
+}
+div.wrapper > div.supermarket > div > div.product {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  left: 170px;
+}
+div.wrapper > div.supermarket > div > div.product > div {
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+  height: 10%;
+  margin: 10px 15px;
+}
+div.wrapper > div.supermarket > div > div.product > div > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+div.wrapper > div.supermarket > div > div.product > div > div {
+  width: 6%;
+  height: 21%;
+  margin-left: 14px;
+  border-radius: 10px;
+  background-color: #d32f2f;
+  color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  bottom: 8px;
+}
+div.wrapper > div.supermarket > div > div.product > div > div > p {
+  font-family: iranyekan-webbold;
+  font-size: 13px;
+}
+div.wrapper > div.supermarket > div > div.product2 {
+  width: 10%;
+  height: 43%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  position: absolute;
+  left: 30px;
+}
+div.wrapper > div.supermarket > div > div.product2 > p {
+  color: #39ae00;
+  font-family: iranyekan-extraBold;
+  font-size: 13px;
+  line-height: 40px;
+  margin-left: 8px;
+}
+div.wrapper > div.supermarket > div > div.product2 > p > i {
+  margin-right: 8px;
+}

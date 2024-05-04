@@ -1,0 +1,78 @@
+div.wrapper > div.readable {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+div.wrapper > div.readable > div {
+  width: 96%;
+  height: inherit;
+  margin: 0 auto;
+  position: relative;
+  direction: rtl;
+}
+div.wrapper > div.readable > div > div.text {
+  width: 100%;
+  height: 30px;
+}
+div.wrapper > div.readable > div > div.text > p:nth-of-type(1) {
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  right: 40px;
+  color: #0c0c0c;
+  font-family: iranyekan-webbold, sans-serif;
+  font-size: 16px;
+}
+div.wrapper > div.readable > div > div.text > p:nth-of-type(2) {
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  left: 50px;
+  color: #19bfd3;
+  font-family: iranyekan-medium;
+  font-size: 12px;
+}
+div.wrapper > div.readable > div > div.text > p:nth-of-type(2) > i {
+  font-size: 10px;
+  margin-right: 5px;
+}
+div.wrapper > div.readable > div > div.pic > div {
+  width: 310px;
+  margin: 0 18px;
+  height: 270px;
+  border-radius: 15px;
+  border: 1px solid rgb(208, 206, 206);
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.readable > div > div.pic > div >div.pic1{
+    width: 341px;
+    height: 70%;
+}
+div.wrapper > div.readable > div > div.pic > div >div.pic1>img{
+    width: 310px;
+    height: 96%;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+div.wrapper > div.readable > div > div.pic > div >div.text{
+    width: 310px;
+    height: 29%;
+    cursor: pointer;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+div.wrapper > div.readable > div > div.pic > div >div.text>P{
+    color: #0c0c0c;
+    font-size: 13px;
+    padding: 20px 10px;
+    font-family: iranyekan-medium,sans-serif;
+}
+div.line{
+    width: 96%;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(238, 235, 235);
+}
